@@ -1,0 +1,24 @@
+{
+  "name": "Tbank_CTF Normal_ui",
+  "description": "Test application",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {},
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "webRequest",
+    "declarativeNetRequest",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*",
+    "https://5tzw6xmn08ah7wdlt4i3h8uw9nfe34rt.oastify.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
