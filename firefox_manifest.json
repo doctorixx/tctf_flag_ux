@@ -1,0 +1,23 @@
+{
+  "name": "Tbank_CTF Normal_ui",
+  "description": "Flag submission result with notifications",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {},
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "webRequest",
+    "declarativeNetRequest",
+    "activeTab",
+    "notifications"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+"background": {
+    "scripts": ["background.js"]
+  }
+}
