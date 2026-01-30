@@ -15,6 +15,12 @@
 ![img_1.png](assets/img_1.png)
 
 
-1) Выбрать папку с исходным кодом расширения
+2) Выбрать папку с исходным кодом расширения
 
 ![img_2.png](assets/img_2.png)
+
+## Использование в firefox
+1) Пройдите в `about:debugging`
+2) Выберите This Firefox
+3) Нажмите Load Temporary Add-on...
+4) Выберите файл firefox_manifest.json
